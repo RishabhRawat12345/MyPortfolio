@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input{
+    width: 439px;
+    height: 191px;
+    border-radius: 5px;
+}
+
+.msg-box{
+    height: 264px;
+  width: 400px;
+  border-radius: 4px;
+}
+p{
+    position: absolute;
+    bottom: 370px;
+    left: 636px;
+
+    
+}

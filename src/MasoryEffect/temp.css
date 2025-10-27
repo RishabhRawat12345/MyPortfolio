@@ -1,0 +1,42 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  height: 397px;
+  width: 696px;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+input{
+    width: 106px;
+  height: 25px;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+
+select{
+    width: 76px;
+  border: 2px solid;
+  background: white;
+  border-radius: 5px;
+
+}
+
+button{
+  width: 76px;
+  height: 33px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+
+}

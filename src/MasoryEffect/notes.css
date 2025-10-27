@@ -1,0 +1,97 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.text {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ipt {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none; /* removes default bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.right li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-2 {
+  background-color: #e74c3c;
+  padding: 5px 10px;
+}
+
+.btn-2:hover {
+  background-color: #c0392b;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}

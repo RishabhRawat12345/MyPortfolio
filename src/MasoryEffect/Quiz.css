@@ -1,0 +1,17 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 155px;
+  text-decoration: none;
+  width: 432px;
+  height: 289px;
+  gap: 72px;
+  list-style:armenian;
+}
+
+
+span{
+    display: flex;
+}

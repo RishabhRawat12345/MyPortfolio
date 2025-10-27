@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    height: 469px;
+    border: 2px solid;
+    width: 1003px;
+    margin: 0 auto;
+    padding: 37px;
+}
+
+
+nav{
+    display: flex;
+    gap: 113px;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+h2{
+  display: flex;
+  justify-content: center;
+}
+

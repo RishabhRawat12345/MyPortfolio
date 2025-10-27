@@ -1,0 +1,33 @@
+.main{
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+select{
+display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  height: 44px;
+  width: 165px;
+  text-align: center;
+  border: 2px solid;
+  background: black;
+  color: white;
+  border-radius: 7px;
+
+}
+
+.text {
+ height: 154px;
+  width: 244px;
+  background: #b3b0b0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  border-radius: 6px;
+}
