@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Nav from './Components/nav'
+import Nav from './Components/Nav'
 import Body from './Components/Body'
 import Services from './Components/Services'
 import Education from './Components/Educations'
