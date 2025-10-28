@@ -39,12 +39,15 @@ const Body = () => {
           elegant digital solutions using modern web technologies.
         </p>
 
-        <motion.button
+        {/* ✅ Working Download Button */}
+        <motion.a
           whileHover={{ scale: 1.1 }}
-          className="mt-8 px-6 sm:px-8 py-3 bg-gradient-to-r from-orange-500 to-yellow-400 text-black font-semibold rounded-full shadow-lg hover:shadow-[0_0_20px_rgba(255,165,0,0.6)] transition-all duration-300"
+          href="/LaTex Resume-2-1.pdf"
+          download="Rishabh_Rawat_Resume.pdf"
+          className="inline-block mt-8 px-6 sm:px-8 py-3 bg-gradient-to-r from-orange-500 to-yellow-400 text-black font-semibold rounded-full shadow-lg hover:shadow-[0_0_20px_rgba(255,165,0,0.6)] transition-all duration-300"
         >
-          Let’s Connect 🚀
-        </motion.button>
+          Resume 🚀
+        </motion.a>
       </motion.div>
 
       {/* Left Section (Image) */}
