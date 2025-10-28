@@ -18,7 +18,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     try {
-      const res = await fetch(' https://myportfolio-h6o2.onrender.com/api/data', {
+      const res = await fetch('https://myportfolio-h6o2.onrender.com/api/data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
